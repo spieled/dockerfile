@@ -1,5 +1,6 @@
-FROM daocloud.io/liushaoping/maven:latest
+FROM daocloud.io/liushaoping/oracle-java:latest
 MAINTAINER Shaoping Liu <spieled916@gmail.com>
+
 ENV CATALINA_HOME="/usr/local/tomcat" \
     PATH="/usr/local/tomcat/bin:$PATH" \
     TOMCAT_MAJOR_VERSION=8 \
